@@ -21,7 +21,7 @@ void setup() {
 
 void loop()
 {
-  delay(1);
+  //delay(1);
   BP1_MAE();
   BP2_MAE();
   LED1_MAE();
@@ -32,7 +32,7 @@ void loop()
   if ( BP1_PRESSED__BP2_RELEASED() && (MOTOR1_IsMotorAt90() == false))
   {
     MOTOR1_GoTo_Sens1();
-    LED1_SetLed_BLINK(500);
+    LED1_SetLed_BLINK(2000);
   }
   else
   {
@@ -40,7 +40,7 @@ void loop()
     if ( BP1_PRESSED__BP2_RELEASED() && (MOTOR1_IsMotorAt90() == true) )
     {
       MOTOR2_GoTo_Sens1();
-      LED1_SetLed_BLINK(500);
+      LED1_SetLed_BLINK(2000);
     }
     else
     {
@@ -55,7 +55,7 @@ void loop()
   if ( BP2_PRESSED__BP1_RELEASED() && (MOTOR2_IsMotorAt0() == false))
   {
     MOTOR2_GoTo_Sens2();
-    LED2_SetLed_BLINK(500);
+    LED2_SetLed_BLINK(2000);
   }
   else
   {
@@ -63,7 +63,7 @@ void loop()
     {
 
       MOTOR1_GoTo_Sens2();
-      LED2_SetLed_BLINK(500);
+      LED2_SetLed_BLINK(2000);
     }
     else
     {

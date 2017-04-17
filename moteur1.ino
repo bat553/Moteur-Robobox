@@ -49,7 +49,7 @@ void MOTOR1_Etat_Sens1(void)
 void MOTOR1_Etat_Sens2(void)
 {
   MOTOR1_LowSpeedCounter ++;
-  if ( MOTOR1_LowSpeedCounter == 2 * MOTOR_DELAY)
+  if ( MOTOR1_LowSpeedCounter ==  MOTOR_DELAY)
   {
     MOTOR1_LowSpeedCounter = 0;
     if ( MOTOR1_posiMotor > 0)

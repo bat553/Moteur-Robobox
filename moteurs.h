@@ -30,7 +30,7 @@ enum
   ETAT_SENS_2
 };
 
-#define MOTOR_DELAY 10
+#define MOTOR_DELAY 50
 
 
 
