@@ -4,7 +4,7 @@ Ma version du soft Arduino pour controller indépandamant les moteurs fournis da
 
 Pour utilier ce programme il vous faudra : 2 leds, 2 boutons, 2 moteurs, 4 résistances et ~ 15 fils d'interconnection.
 
-Chaque matériel est référencé dans les MAE, ce qui permet de réutiliser chaque fichier (moteur1, led1,...) dans des futurs montages.
+Chaque matériel est référencé dans les Machines à Etat, ce qui permet de réutiliser chaque fichier (moteur1, led1,...) dans des futurs montages.
 
 Voici le câblage que j'ai réalisé : 
 
