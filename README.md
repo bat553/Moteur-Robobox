@@ -2,6 +2,8 @@
 
 Ma version du soft Arduino pour contrôler indépendamment les moteurs fournis dans le kit RoboBox.
 
+** N'oubliez pas d'ajouter tous les fichiers au croquis principal ! **
+
 Pour utiliser ce programme il vous faudra : 2 leds, 2 boutons, 2 moteurs, 4 résistances et ~ 15 fils d'interconnexion.
 
 Chaque matériel est référencé dans les Machines à Etat, ce qui permet de réutiliser chaque fichier (moteur1, led1,...) dans des futurs montages.
