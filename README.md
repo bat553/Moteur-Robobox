@@ -8,6 +8,13 @@ Chaque matériel est référencé dans les Machines à Etat, ce qui permet de r�
 
 Voici le câblage que j'ai réalisé : 
 
+Brachez la LED1 sur le Pin : 5
+		la LED2 sur le Pin : 10
+		le BOUTON1 sur le Pin : 7
+		le BOUTON2 sur le Pin : 8
+		le MOTEUR1 sur le Pin : 4
+		le MOTEUR2 sur le Pin : 2
+
 ![alt tag](https://raw.githubusercontent.com/bat553/Moteur-Robobox/master/images/setup.jpg)
 
 
